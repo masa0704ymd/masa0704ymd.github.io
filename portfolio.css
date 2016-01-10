@@ -1,0 +1,37 @@
+body{
+    font-family:"ヒラギノ角ゴ Pro W3","メイリオ",sans-serif;
+    background-color: #ggg;
+    font-size:14px;
+}
+nav{
+    background-color:#123;
+}
+nav ul li {
+    margin:20px;
+    display:inline-block;
+}
+#bold h1{
+   font-weight:900; 
+}
+hr{
+    color:#000;
+}
+.container{
+
+
+}
+.container img{
+    -ms-interpolation-mode:bicubic;
+    max-width:80px;
+    max-height:80px;
+    border-radius:100%;
+}
+#profile{
+    text-align:center;
+}
+#profile img{
+    -ms-interpolation-mode:bicubic;
+    max-width:80px;
+    max-height:80px;
+    border-radius:100%;
+}
