@@ -1,24 +1,27 @@
 body{
     font-family:"ヒラギノ角ゴ Pro W3","メイリオ",sans-serif;
-    background-color: #ggg;
     font-size:14px;
 }
-nav{
-    background-color:#123;
+.navbar{
+    border-radius:0;
 }
-nav ul li {
-    margin:20px;
-    display:inline-block;
+.row{
+    margin-bottom:50px;
+}
+.icon{
+    text-align:center;
+}
+.icon .glyphicon{
+    margin-bottom:10px;
+    font-size:40px;
+    color:#777;
 }
 #bold h1{
+   padding-left: 1pc; 
    font-weight:900; 
 }
 hr{
     color:#000;
-}
-.container{
-
-
 }
 .container img{
     -ms-interpolation-mode:bicubic;
@@ -28,6 +31,10 @@ hr{
 }
 #profile{
     text-align:center;
+}
+#profile{
+    background-color:#aaa;
+    padding:20px;
 }
 #profile img{
     -ms-interpolation-mode:bicubic;
